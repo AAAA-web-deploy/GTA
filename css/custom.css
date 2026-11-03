@@ -1,0 +1,9 @@
+/* Small project-specific adjustments layered on the original reference CSS. */
+.hero .display{font-size:clamp(3.1rem,8vw,7.5rem);line-height:.92}
+.brand span{font-size:.65rem;line-height:1.2;letter-spacing:.05em}
+.project-stats b{font-size:1.2rem}
+.ca button:disabled{opacity:.45;cursor:not-allowed}
+.config-note{color:#aaa;font-size:.8rem;align-self:center}
+@media(max-width:700px){.hero .display{font-size:clamp(3rem,12vw,5rem)}.hero .wrap{padding-top:8rem}.lead{min-height:560px}}
+
+[hidden]{display:none!important}
